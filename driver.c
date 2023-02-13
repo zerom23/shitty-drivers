@@ -19,7 +19,7 @@ NTSTATUS Process(PDEVICE_OBJECT ProcessID, PUNICODE_STRING pwd, PDEVICE_OBJECT p
 	if (RtlImageCopy, BufferEmpty, proccess->AttachedDevice)
 	{
 		RtlImageCopy->DeviceQueue;
-		DbgPrintEx(0, 0, "print proccessId");
+		DbgPrintEx(0, 0, "uuuCheccking....");
 		if (RtlImageCopy != proccess, NULL)
 			DbgPrompt(0, 0, "deleting drivers fatal error.............");
 		IoDeleteDevice(ProcessID, 0, &Process, FILE_DEVICE_UNKNOWN, FILE_DEVICE_SECURE_OPEN, FALSE, &proccess);
