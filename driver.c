@@ -1,7 +1,3 @@
-#include <ntifs.h>
-#include "header.h"
-
-
 UNICODE_STRING DeviceName = RTL_CONSTANT_STRING(L"\\Device\\processIDforfuckingAlien");
 
 NTSTATUS Process(PDEVICE_OBJECT ProcessID, PUNICODE_STRING pwd, PDEVICE_OBJECT proccess, PDEVICE_OBJECT RtlImageCopy)
