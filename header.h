@@ -1,6 +1,3 @@
-#include <ntifs.h>
-
-
 NTSTATUS ObjectEntry(PDEVICE_OBJECT DriverObject, PUNICODE_STRING Driver)
 {
 	return STATUS_SUCCESS;
